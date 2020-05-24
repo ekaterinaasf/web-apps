@@ -1,0 +1,20 @@
+{
+  "title": "A furniture object",
+  "description": "Definitions and types of the furniture details",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "materials": {
+      "type": "array",
+      "properties": {
+        "type": "string"
+      }
+    },
+    "second_hand": {
+      "type": "boolean"
+    }
+  },
+  "required": ["id", "materials", "type"]
+}

@@ -1,0 +1,36 @@
+{
+  "nextId": 11,
+  "animals": [
+    {
+      "id": 1,
+      "habitat": "Africa",
+      "average_mass": 1000,
+      "is_extinct": false
+    },
+    {
+      "id": 5,
+      "habitat": "Antarctica",
+      "average_mass": 55,
+      "traits": {
+        "beak": true,
+        "feathers": true,
+        "fur": true,
+        "feet": false,
+        "flippers": false
+      },
+      "is_extinct": true
+    },
+    {
+      "id": 10,
+      "habitat": "Asia",
+      "average_mass": 200,
+      "traits": {
+        "feathers": true,
+        "fur": true,
+        "feet": true,
+        "flippers": true
+      },
+      "is_extinct": false
+    }
+  ]
+}
